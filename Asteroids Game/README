@@ -1,0 +1,39 @@
+harelyac	
+311319990
+Harel Yacovian	
+
+aloncvb
+206786170
+Alon Harari
+	
+
+I discussed the exercise with: none.
+
+====================================
+=  README for ex9: ex9.py		
+====================================
+This file contain a ships game with asteroids! you better destroy them all or be destroyed by them!
+==================
+=  Description:  =
+==================
+This file make an asteroids game. wih specific made spaceship you will be able to play this game. the program, contains lots of functions for each object.
+which brings us to the thinking behind making 4 classes for this game. ship/asteroid/torpedos/screen. 
+each has it own unique variables and shared functions. 
+and also get and set functions where is necessary. 
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
+Three decisions that we had during coding:
+1.whether to use deepcopy in some places or not. we found that using deepcopy will change the id number which means the register 
+function wont find it. and after reading a bit about this function, register look into real object list and check each time their id!
+ 
+2.we wondered about the move class. about making move for each class or just making one shared function on main function(game_loop). 
+first we started with making for each and later on we combined all into one function that rules them all! :)
+
+3.its not a decision but more like a new thinking that we learnt.
+about while loops and how dynamic games work. we knew this kind of things exist but we didnt knew how they are made.
