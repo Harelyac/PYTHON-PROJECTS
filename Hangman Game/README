@@ -1,0 +1,50 @@
+harelyac	
+311319990
+Harel Yacovian		
+
+I discussed the exercise with: none.
+
+====================================
+=  README for ex4: hangman.py		
+====================================
+This file via using the hangman_helper.py file makes the famous hangman game alive.
+the hangman game is a classical game in which you are given a word to guess with given pattern.
+you have few guesses an available hint mechanisem built in. at the same time that you try to guess the word
+if you fail you are one step into making the full hangman pivot alive. when hangman picture is fully complete its indicate 
+that you failed and you should play again.
+==================
+=  Description:  =
+==================
+
+1.update_word_pattern:
+This function get the right guessed word and pattern and change the pattern accordingly.
+
+2.filter_word_list:
+This function is part of the biggest "hint" mechanisem. the part that this function play is that 
+it gets all the words in the words file and then sort them with special conditions. and then return that list
+
+3.letter_to_index & index_to_letter:
+This two functions serve the same result but on the opposite way around. 
+basically each one of them return the index/char with given char/index in the alpabetical order.
+
+4.choose_letter:
+This function check the maximal shows of a char with given words list
+
+5.run_single_game:
+this function run iteration of a game one at a time.
+
+6.main:
+this is the main bone of the file. its the main functions that control all the others.
+
+7.*at the end of the file there is 2 codes lines that starts the gui of pill modules and close it accordingly
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
+Answer to questions that has been asked in the file:
+with changing language to hebrew, we will have to change the maximal_chars listin choose_letter function. to be at the same size of number of letter in the hebrew language,
+in addition the ascci decimal value of "alef" letter in the extended character set of the ascii table depend on using the code page 862 of for hebrew letters. 
