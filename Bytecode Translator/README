@@ -1,0 +1,22 @@
+daniel.hazan, harelyac
+Daniel Hazan, ID 203385828,daniel.hazan@mail.huji.ac.il 
+Harel Yacovian, ID 311319990 harel.yacovian@mail.huji.ac.il
+
+Project 8 - Virtual Machine, Continued (Control)                        
+ ----------------------- 
+  
+
+Submitted Files
+---------------
+MakeFile
+VMtranslator 
+
+basic idea - creating a bytecode translator which recieve byte/vm code and translate it into assembly code
+
+Parser.py - a python file that includs the main class and also the parsering process in which we deal with reading the commands.
+CodeWriter.py - this is part of the program where we check the divided element from the vm file which was given from the parser and then translate them to Assembly code.
+
+further details:
+described in the files themselfs. it was quite fun working along again with assembly code. we look forward to do the next python project.f
+seems like that now at project 8 we used more the vmEmulator. at first i did not find at necessary crucial need of using it. 
+the project was really fun and educational indeed. looking forward for next assignments.
