@@ -1,0 +1,51 @@
+harelyac	
+311319990
+Harel Yacovian		
+
+I discussed the exercise with: none.
+
+====================================
+=  README for ex7: ex7.py		
+====================================
+This file contain some recursions functiosn and in addition it also resolve the famous hanoi game.
+==================
+=  Description:  =
+==================
+
+1.print_to_n:
+prints the all the number up until the n number with mount order
+
+2.print_reversed:
+print the reversed version of the print_to_n function.
+
+3.is_prime
+check if the n number is prime and return the answer.
+
+4.divisors
+check all the divisiors of number and put them inside a list.
+
+5.exp_n_x
+prints the exponantial sum with given parameters.
+
+6.play_hanoi
+play the hanoi game. and at the end also resolve it.
+
+7.print_binary_sequences
+print all the binary sequences with given n length.
+
+8.print_sequences
+prints all the sequences with given char list instead of 1,0.
+
+9.print_no_repetition_sequences
+prints same sequences but now without repetition.
+
+10.no_repetition_sequences_list
+put them all inside a list!
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
