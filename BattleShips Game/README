@@ -1,0 +1,34 @@
+harelyac	
+311319990
+Harel Yacovian		
+
+I discussed the exercise with: none.
+
+====================================
+=  README for ex8: ex8.py		
+====================================
+This file contain a ships game that let you hit them all untill you win the game!
+==================
+=  Description:  =
+==================
+The program, divided into two classes:
+
+SHIP CLASS:
+this class make an object game, which have attributes related to it like position on board,length, size of board, 
+coordinates of ship, and statu of each coordinates in ship(dict structures). and in addition it includes also move 
+function that moves ships on board after checking direction that prevent you from touching the border,
+hit is another function that check if bomb was hit on specific oordinate of ships.
+
+GAME CLASS:
+this class make the whole game algoritem. it get target of bomb from user, then moves ships. 
+after that check which ship was hit. and then update hit count and damaged cells eventually it does this turn again over and over.
+
+
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
