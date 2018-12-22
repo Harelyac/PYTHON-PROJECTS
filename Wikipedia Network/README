@@ -1,0 +1,42 @@
+harelyac	
+311319990
+Harel Yacovian	
+	
+I discussed the exercise with: 
+I got help from people at the aquarium, on sorting:
+"key=lambda tpl:(-tpl[1], tpl[0])", which helps me sort the code in some 
+sort of way according to what i need
+====================================
+=  README for ex10: ex10.py		
+====================================
+
+==================
+=  Description:  =
+==================
+This project got the files included. 
+1.article.py which define an article object and all its methods.
+2.wikinetwork.py which define a network object and all its methods.
+on wiki there are addition methods/function as: page_rank which 
+check article rank on network.
+and jaccard_index, travel path iterator and freinds by depth.
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
+==================
+Highest Page-Rank:’United_States’, ’France’, ’Europe’
+Second Jaccard index for The_Simpsons: Tuvalu
+Second Jaccard index for The_Lord_of_the_Rings: J._R._R._Tolkien
+Second Jaccard index for The_Godfather: Citizen_Kane
+Second Jaccard index for Louis_XIV_of_France: William_III_of_England
+Friends By Depth in percentage:
+United_States - 1 depth: 6.4 %
+United_States_dollar - 2 depth: 20 %
+Microsoft - 3 depth: 55.2 %
+0.06439641999563414
+0.20039292730844793
+0.5527177472167649
