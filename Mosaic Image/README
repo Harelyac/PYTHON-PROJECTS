@@ -1,0 +1,63 @@
+harelyac	
+311319990
+Harel Yacovian		
+
+I discussed the exercise with: none.
+
+====================================
+=  README for ex6: ex6.py		
+====================================
+This file, makes a mosaic image out of an original image. which means that it imitate the colors of 
+the original image with same r,g,b pixel ratio of pieces from a large arsenal of choices. 
+at the end the result is quite beautiful.
+==================
+=  Description:  =
+==================
+
+1.compare_pixel:
+This function calculate the RGB ratio difference between two given pixels. 
+and return the difference according to specific calculation.
+
+2.compare:
+This function compare two images in a wider scale of comparison. 
+which means it will compare all pixels inside each image with the 
+correspond pixel on the other image. 
+
+3.get_piece:
+This function gets a piece out of an image(just copying it of course) 
+for further uses of other functions - Comparing with chosen tile to switch with it.
+
+4.set_piece:
+This function make a good use of the chosen image that was chosen with care 
+and eventually put it inside the image. which means it will switch 
+the original image part with the new one(tile)
+
+5.average:
+This function checks the average RGB count of all pixels in the image.
+
+6.preprocess_tiles:
+This function check all the average RGB count of tiles in a list.
+
+7.get_best_tiles:
+This function check the best tiles out of the list of tiles with given averages RGB 
+count after checking the difference of a tile from the obj image.
+
+8.choose_tile:
+This function choose the best tile! the one and only tile that will be the 
+chosen one to switch the original image part.
+
+9.make_mosaic:
+The main and root of all the project. this functions call all the rest of 
+functions and make a good use of them all. 1 step by another.
+
+10.main:
+This functions make first initializations before starting all the project. 
+those necesssary to make sure everythings will word just ok.
+
+======================
+=  Special Comments  =
+======================
+
+==================
+=  Questions     =
+==================
