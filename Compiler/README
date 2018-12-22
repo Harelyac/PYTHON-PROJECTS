@@ -1,0 +1,23 @@
+daniel.hazan, harelyac
+Daniel Hazan, ID 203385828,daniel.hazan@mail.huji.ac.il 
+Harel Yacovian, ID 311319990 harel.yacovian@mail.huji.ac.il
+
+Project 11 - Compilation - Continued                        
+ ----------------------- 
+  
+
+Submitted Files
+---------------
+MakeFile
+
+basic idea - A java like compiler that translate high level language into byte/vm code. 
+
+JackCompiler.py - the main class of the project. it runs all its components.
+jackTokenizer.py - this class responsible to divide the input file into 
+tokens chunks. which will be dealt later on with the engine.
+CompilationEngine.py - the parser engine. this class check jack grammer of input file and 
+convert it into xml markup language to a text file.
+Variables.py - this class represent the variable object which is being used over and over in the project.
+VMwriter - this class responsible to generate code to vm output file.
+SymbolTable - this class hold two tables which keep track of identifiers we handle on project.
+
