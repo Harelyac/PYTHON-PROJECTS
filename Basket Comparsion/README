@@ -16,14 +16,14 @@ I've used the following websites: StackOverFlow.com.
 
 
 ==================
-=  Description:  =  With this exercise we created a tool that alows the user to make
- 		    a comparsion of a wanted shopping list in three different stores.
-		    The program supplies an information about each store- which one is
-	 	    the cheapest and which one is lack of some items. In addition, the user
-		    can save his basket list into a outer file or upload a one of his own
-		    and make a comparsion in the wanted stores.
+=  Description:  = 
 ==================
-
+With this exercise we created a tool that alows the user to make
+a comparsion of a wanted shopping list in three different stores.
+The program supplies an information about each store- which one is
+the cheapest and which one is lack of some items. In addition, the user
+can save his basket list into a outer file or upload a one of his own
+and make a comparsion in the wanted stores.
 
 
 ======================
