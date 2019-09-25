@@ -4,12 +4,12 @@ Harel Yacovian
 	
 I discussed the exercise with: 
 I got help from people at the aquarium, on sorting:
-"key=lambda tpl:(-tpl[1], tpl[0])", which helps me sort the code in some 
-sort of way according to what i need
+"key=lambda tpl:(-tpl[1], tpl[0])"
 ====================================
 =  README for ex10: ex10.py		
 ====================================
-
+
+
 ==================
 =  Description:  =
 ==================
@@ -28,7 +28,7 @@ and jaccard_index, travel path iterator and freinds by depth.
 =  Questions     =
 ==================
 ==================
-Highest Page-Rank:’United_States’, ’France’, ’Europe’
+Highest Page-Rank:â€™United_Statesâ€™, â€™Franceâ€™, â€™Europeâ€™
 Second Jaccard index for The_Simpsons: Tuvalu
 Second Jaccard index for The_Lord_of_the_Rings: J._R._R._Tolkien
 Second Jaccard index for The_Godfather: Citizen_Kane
